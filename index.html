@@ -3,45 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Von Claude AI erstellt</title>
+    <title>AI Website Generator - Automatische Website-Erstellung per Discord</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🤖 Von Claude AI erstellt</h1>
-            <p class="subtitle">Eine einfache Website, automatisch generiert und deployed</p>
+            <h1>🤖 AI Website Generator</h1>
+            <p class="subtitle">Erstelle Websites automatisch per Discord-Command!</p>
         </header>
         
         <main>
-            <section class="card">
-                <h2>Willkommen!</h2>
-                <p>Diese Website wurde vollständig von Claude, einem KI-Assistenten von Anthropic, erstellt und auf GitHub Pages deployed.</p>
+            <section class="card hero-card">
+                <h2>Was ist das?</h2>
+                <p>Dieses Projekt ermöglicht es dir, vollautomatisch Websites zu erstellen - einfach durch einen Discord-Befehl mit einer kurzen Beschreibung!</p>
+                <p style="margin-top: 15px;">Der Bot nutzt Claude AI, um aus deiner Beschreibung eine komplette Website zu generieren, sie auf GitHub Pages zu deployen und dir sofort den Link zu senden.</p>
             </section>
             
             <section class="card">
-                <h2>Was kann Claude?</h2>
-                <ul>
-                    <li>✨ GitHub Repositories erstellen</li>
-                    <li>📝 Code und Websites entwickeln</li>
-                    <li>🚀 Automatisches Deployment auf GitHub Pages</li>
-                    <li>🎨 Modernes, responsives Design</li>
+                <h2>⚡ So funktioniert's</h2>
+                <ol style="list-style: decimal; padding-left: 30px;">
+                    <li style="margin: 15px 0;"><strong>Discord-Command senden:</strong> Schreibe einen Befehl mit deiner Website-Idee im Discord</li>
+                    <li style="margin: 15px 0;"><strong>AI generiert Website:</strong> Claude AI erstellt automatisch HTML, CSS und JavaScript basierend auf deiner Beschreibung</li>
+                    <li style="margin: 15px 0;"><strong>Automatisches Deployment:</strong> Die Website wird als Unterseite dieses Repos auf GitHub Pages deployed</li>
+                    <li style="margin: 15px 0;"><strong>Link erhalten:</strong> Du bekommst sofort den fertigen Link zu deiner neuen Website!</li>
+                </ol>
+            </section>
+            
+            <section class="card tech-card">
+                <h2>🛠️ Technologie-Stack</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px;">
+                    <div class="tech-item">
+                        <h3 style="color: #667eea; font-size: 1.2em;">🤖 Claude AI</h3>
+                        <p style="font-size: 0.9em;">Generiert Website-Code</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3 style="color: #667eea; font-size: 1.2em;">💬 Discord Bot</h3>
+                        <p style="font-size: 0.9em;">Command Interface</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3 style="color: #667eea; font-size: 1.2em;">🔄 n8n</h3>
+                        <p style="font-size: 0.9em;">Workflow-Automatisierung</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3 style="color: #667eea; font-size: 1.2em;">📦 GitHub</h3>
+                        <p style="font-size: 0.9em;">Hosting & Versionierung</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3 style="color: #667eea; font-size: 1.2em;">🌐 GitHub Pages</h3>
+                        <p style="font-size: 0.9em;">Website-Deployment</p>
+                    </div>
+                    <div class="tech-item">
+                        <h3 style="color: #667eea; font-size: 1.2em;">🔧 GitHub API</h3>
+                        <p style="font-size: 0.9em;">Repository-Management</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="card features-card">
+                <h2>✨ Features</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding: 12px; margin: 8px 0; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <strong>🚀 Blitzschnell:</strong> Website in Sekunden erstellt
+                    </li>
+                    <li style="padding: 12px; margin: 8px 0; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <strong>🎨 Modernes Design:</strong> Automatisch responsive und schön gestaltet
+                    </li>
+                    <li style="padding: 12px; margin: 8px 0; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <strong>🔗 Sofort online:</strong> Kein manuelles Deployment nötig
+                    </li>
+                    <li style="padding: 12px; margin: 8px 0; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <strong>💾 Versioniert:</strong> Alle Websites werden in Git gespeichert
+                    </li>
+                    <li style="padding: 12px; margin: 8px 0; background: #f0f4ff; border-radius: 8px; border-left: 4px solid #667eea;">
+                        <strong>🆓 Kostenlos:</strong> Nutzt GitHub Pages für kostenloses Hosting
+                    </li>
                 </ul>
             </section>
             
-            <section class="card">
-                <h2>Technologie</h2>
-                <p>Diese Seite verwendet:</p>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3 mit modernem Design</li>
-                    <li>GitHub Pages für Hosting</li>
+            <section class="card cta-card" style="text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                <h2 style="color: white; font-size: 2em; margin-bottom: 15px;">🚀 Jetzt starten!</h2>
+                <p style="color: white; font-size: 1.1em; margin-bottom: 25px;">Füge den Bot zu deinem Discord-Server hinzu und erstelle deine erste Website!</p>
+                <a href="https://discord.com/oauth2/authorize?client_id=1428360375262380044" 
+                   target="_blank" 
+                   style="display: inline-block; background: white; color: #667eea; padding: 15px 40px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 1.2em; box-shadow: 0 5px 15px rgba(0,0,0,0.3); transition: transform 0.3s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'"
+                   onmouseout="this.style.transform='scale(1)'">
+                    💬 Bot zu Discord hinzufügen
+                </a>
+            </section>
+            
+            <section class="card example-card">
+                <h2>📋 Beispiel-Websites</h2>
+                <p>Hier sind einige Beispiele, die mit diesem System erstellt wurden:</p>
+                <ul style="margin-top: 15px;">
+                    <li style="padding: 10px 0;">
+                        <a href="geheimes-rezept.html" style="color: #667eea; text-decoration: none; font-weight: bold;">
+                            🍰 Geheimes Kuchenrezept
+                        </a>
+                        <span style="color: #888; font-size: 0.9em;"> - Eine versteckte Rezeptseite</span>
+                    </li>
                 </ul>
+                <p style="margin-top: 20px; color: #888; font-size: 0.9em;">Weitere Beispiele werden hier automatisch hinzugefügt, sobald sie erstellt werden...</p>
             </section>
         </main>
         
         <footer>
-            <p>Erstellt am 19. Oktober 2025 | Powered by Claude AI & GitHub Pages</p>
+            <p>Entwickelt von Miggo65 mit Claude AI | Powered by GitHub Pages</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                <a href="https://github.com/Miggo65/yourwebsite" target="_blank" style="color: white; text-decoration: none;">
+                    📦 GitHub Repository
+                </a>
+            </p>
         </footer>
     </div>
     
