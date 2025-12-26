@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Art Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #5cb85c;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .art-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .art-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Hamster Art Gallery!</h1>
+        <p>Discover unique and charming artworks created by our very talented hamsters. Each piece is crafted with passion and a sprinkle of hamster magic, perfect for adding a touch of whimsy to your home or office.</p>
+
+        <h2>Our Featured Artists</h2>
+        <p>Our little artists work tirelessly to bring you a diverse collection. From abstract expressions to delightful portraits, there's something for every art lover.</p>
+
+        <div class="gallery">
+            <div class="art-item">
+                <h3>Golden Nibbler's Sunset</h3>
+                <p>A vibrant masterpiece capturing the serene beauty of a hamster's evening.</p>
+            </div>
+            <div class="art-item">
+                <h3>Whisker's Abstract Dreams</h3>
+                <p>An intriguing blend of colors and shapes, reflecting the mysterious world of hamster dreams.</p>
+            </div>
+            <div class="art-item">
+                <h3>Fluffy Paws Portrait</h3>
+                <p>A charming portrait of a beloved hamster, showcasing their unique personality.</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>Get in Touch!</h2>
+            <p>Interested in commissioning a piece or learning more about our artists? Contact us at <a href="mailto:artbyhamsters@example.com">artbyhamsters@example.com</a>.</p>
+            <p>Follow us on social media for daily dose of cuteness and new art!</p>
+        </div>
+    </div>
+</body>
+</html>
